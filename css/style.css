@@ -1,0 +1,668 @@
+@import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+body{
+  background: #000;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.logo{
+  display: flex;
+  justify-content:center;
+  padding: 60px;
+  margin-top:-900px;
+}
+.logo img{
+  width: 20rem;
+  height: 15rem;
+}
+
+
+.hamburguer{
+    
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    z-index:100;
+    right: 5rem;
+    top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor:pointer;
+    color: white;
+    
+}
+
+.to-top{
+  position: fixed;
+  right: 1rem;
+  bottom: 3rem;
+  width: 2rem;
+  height: 2rem;
+  background:white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  border-radius: .3rem;
+  opacity:0;
+}
+.to-top.active {
+  bottom:32px;
+  pointer-events: auto;
+  opacity:1;
+}
+.fa-2x{
+  color:white;
+}
+  
+  
+  
+header{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.img-wrapper{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .banner{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .banner h1{
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    font-family: "Glegoo",sans-serif;
+    padding: 40px;
+  }
+  .banner_btn{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .banner_btn button{
+    padding: 10px;
+    background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%);
+    color:black;
+    font-size: 1.5rem;
+    text-transform:uppercase;
+    font-family: "Glegoo",sans-serif;
+    border-radius: 5px;
+    border: none;
+    transition: 0.5s;
+    box-shadow: 0 0 50px #eee;
+    cursor: pointer;
+
+  }
+  .banner_btn button:hover{
+    font-size: 1.6rem;
+  }
+
+           
+   
+/*@keyframes zoom {
+    0%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+} */  
+
+.header-info{
+  width: 90%;
+  height:100%;
+  background-color:white;
+  font-family: 'Roboto Slab', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.flaticon-header{
+  text-align: center;
+}
+.flaticon-header img{
+  width: 3rem;
+  height: 3rem;
+}
+.header-info .container{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.header-info .atendimento, .horário, .agendamento{
+  margin: 60px;
+}
+.header-info h2{
+  margin: 10px;
+  font-family: "Glegoo",sans-serif;
+  text-align: center;
+}
+.agendamento{
+  text-align: center;
+}
+.agendamento button{
+  align-items: center;
+  padding: 15px;
+  margin: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2d43d;
+  color: black;
+  font-weight: 600;
+  text-transform:uppercase;
+  font-family: "Glegoo",sans-serif;
+  cursor: pointer;
+
+}
+.agendamento button:hover{
+  color: white;
+  transition:color 0.5s;
+}
+
+ .sidebar {
+    width: 20rem;
+    height: 100vh;
+    background-color:#000;
+    position: fixed;
+    top: 0;
+    right: -20rem;
+    transition: all 1s;
+    z-index: 80;
+    opacity: 0.9;
+  }
+  
+  .show-menu .sidebar {
+    right: 0;
+  }
+  
+  .menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .menu-item {
+    text-align: center;
+    margin:50px;
+    margin-bottom: 0.5rem;
+  }
+  
+  
+  .menu-link {
+    font-family: "Glegoo",sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    transition: color 0.5s;
+  }
+  
+  .menu-link:hover {
+    color: #edde5d;
+    
+  }
+  .social-media img{
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  .social-media {
+    position: absolute;
+    bottom: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .social-media img{
+    width: 3rem;
+    height: 3rem;
+  }
+
+  
+  .barbearia .container{
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items: center;
+    margin: 60px 0px 60px 0px;
+   
+  }
+  
+  .barbearia h1{
+    display: flex;
+    justify-content:center;
+    padding: 60px;
+    font-size: 3rem;
+    color: white;
+    font-family: "Glegoo",sans-serif;
+    text-transform:capitalize;
+    letter-spacing: 10px;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+  }
+  .barbearia p{
+    color: white;
+  }
+  .apresentacao{
+    display: flex;
+    justify-content: space-around;
+   
+    
+  }
+  .foto_apresentacao{
+    display: flex;
+    justify-content: center;
+  }
+   .apresentacao img{
+    width:500px;
+    height:350px;
+    border: none;
+    border-radius: 5px;
+    background-size: cover;
+    margin-left: 200px;
+  }
+  .apresentacao h2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    color: white;
+    font-size: 2rem;
+    margin-left: 100px;
+    font-family: "Glegoo",sans-serif;
+    
+    
+  }
+.apresentacao p{
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 2rem;
+  font-family: 'Roboto Slab', serif;
+  padding: 10px;
+  margin: 25px;
+  text-align:justify;
+}
+
+.serviços{
+  background:black;
+}
+.serviços h1{
+  display: flex;
+  justify-content:center;
+  text-align: center;
+  padding: 60px;
+  font-size: 3rem;
+  color: white;
+  font-family: "Glegoo",sans-serif;
+  text-transform:capitalize;
+  letter-spacing: 10px;
+  text-decoration: underline;
+  text-underline-offset: 20px;
+}
+
+.polaroid{
+	
+	padding: 15px 15px 15px;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.photo{
+	width:100%;
+	height: 300px;
+	object-fit: cover;
+  border-radius: 5px;
+}
+.serviços .container{
+  width: 90%;
+	padding: 190px;
+  display: flex;
+  justify-content:space-around;
+  gap: 65px;
+  flex-wrap: wrap;
+  background: url(/Sandiego-BarberShop-main/images/servicesbackground.png) center;
+  background-size: auto;
+  margin: 0 auto;
+  border-radius: 10px;
+
+}
+.caption{
+  margin:15px;
+}
+.caption h2{
+  margin: 12px;
+  font-size:1.5rem;
+  color:white;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  text-transform:capitalize;
+  font-weight: 500;
+}
+.caption p{
+  font-size: 4.5rem;
+  margin: 12px;
+  text-align:center;
+  font-family: 'Roboto Slab', serif;
+  text-transform:capitalize;
+  font-weight: 400;
+  color:#f2d43d;
+}
+/*.serviços .btn{
+	transition: box-shadow .3s;
+	text-align: center;
+} */
+
+.agendar{
+   display: flex;
+  justify-content: center;
+  margin-top: -20px;
+  margin-bottom: 60px;
+}
+.agendar button{
+  width: 300px;
+  background:#f2d43d;
+	color:black;
+	font-weight:bold;
+	padding: 10px;
+	margin: 15px;
+	border-radius:5px;
+	border:none;
+	cursor: pointer;
+  font-size: 1rem;
+  font-family: "Glegoo",sans-serif;
+  text-transform:uppercase;
+  margin-top: -80px;
+	
+}
+.agendar button:hover{
+	color:white;
+  transition: color 0.5s;
+}*/
+
+.time{
+  background-image: url(images/logo2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 500px 500px;
+}
+
+.time h1{
+  display: flex;
+    justify-content:center;
+    padding: 60px;
+    font-size: 3rem;
+    color: white;
+    font-family: "Glegoo",sans-serif;
+    text-transform:capitalize;
+    letter-spacing: 10px;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+}
+.time .container{
+	padding: 60px;
+  display: flex;
+  justify-content:center;
+  gap: 65px;
+  flex-wrap: wrap;
+}
+.polaroid_time{
+	background:#f5f5f5;
+	padding: 15px 15px 15px;
+  border-radius: 5px;
+  width: 280px;
+}
+.photo_time{
+	width:100%;
+	height: 400px;
+	object-fit: cover;
+  border-radius: 5px;
+}
+.polaroid_time .caption h2{
+  margin: 12px;
+  font-size:2rem;
+  color:black;
+  text-align: center;
+  font-family: "Glegoo",sans-serif;
+  text-transform:capitalize;
+  font-weight: 700;
+}
+.polaroid_time .caption p{
+  font-size: 1.5rem;
+  color: black;
+  margin: 12px;
+  text-align:center;
+  font-family: 'Roboto Slab', serif;
+  text-transform:capitalize;
+  font-weight: 100;
+}
+
+  
+.galeria{
+  display: grid;
+  justify-content: center;
+  background:#f2d43d;
+    
+}
+.galeria h1{
+    display: flex;
+    justify-content:center;
+    padding: 60px;
+    font-size: 3rem;
+    color:white;
+    font-family: "Glegoo",sans-serif;
+    text-transform:capitalize;
+    letter-spacing: 10px;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+ }
+.gallery{
+  padding: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 300px;
+  grid-gap: 30px;
+}
+.gallery img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.item-1{
+  grid-column: 1 / 3;
+}
+.item-5{
+  grid-column: 3;
+  grid-row: 2 / span 2;
+}
+
+.contato .container{
+  display: flex;
+  justify-content:space-evenly;
+  flex-wrap:nowrap;
+}
+
+.contato h1{
+  display: flex;
+  justify-content:center;
+  padding: 60px;
+  font-size: 3rem;
+  color: white;
+  font-family: "Glegoo",sans-serif;
+  text-transform:capitalize;
+  letter-spacing: 10px;
+  text-decoration: underline;
+  text-underline-offset: 20px;
+}
+.horario{
+  margin: 20px;
+}
+.horario h2{
+  color: white;
+  font-size: 2rem;
+  font-family: "Glegoo",sans-serif;
+  text-transform:capitalize;
+  font-weight: 700;
+  margin: 15px;
+  text-align: center;
+}
+.horario ul{
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  margin: 5px;
+  text-align: center;
+}
+.endereço{
+  margin: 20px;
+}
+.endereço h2{
+  color: white;
+  font-size: 2rem;
+  font-family: "Glegoo",sans-serif;
+  text-transform:capitalize;
+  font-weight: 700;
+  margin: 15px;
+  text-align: center;
+}
+.endereço p{
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Roboto Slab', serif;
+  text-transform:capitalize;
+  font-weight: 300;
+  margin: 15px;
+  text-align: center;
+}
+.contatos{
+  margin: 20px;
+}
+.contatos h2{
+  color: white;
+  font-size: 2rem;
+  font-family: "Glegoo",sans-serif;
+  text-transform:capitalize;
+  font-weight: 700;
+  margin: 15px;
+  text-align: center;
+}
+.contatos i{
+  color: white;
+}
+.logo-contato img{
+  width: 20rem;
+  height: 15rem;
+}
+.fa-ul{
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Quicksand', sans-serif;
+  text-transform:capitalize;
+  font-weight: 300;
+  margin: 15px;
+  text-align: center;
+   
+}
+.mapa{
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+ 
+}
+.mapa iframe{
+  border-radius: 10px;
+}
+.whatsapp{
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.whatsapp .btn{
+  padding: 10px 15px;
+  margin:20px;
+  border-radius: 15px;
+  border: none;
+  background: #25d366;
+  color: #fff;
+  font-size: 1.25rem;
+  cursor: pointer;
+ }
+ .instagram{
+  display: flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+ }
+ .instagram-image{
+  display: flex;
+  justify-content:center;
+  
+  
+ }
+ .instagram h1{
+  font-size: 2rem;
+  text-decoration: none;
+  letter-spacing: 2px;
+  padding: 20px;
+ }
+ .instagram img{
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+ }
+button i{
+  color: #fff;
+  
+}
+footer{
+  width: 100%;
+  height: 10vh;
+  background:white;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+footer p {
+   font-size: 1.5rem;
+   font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
+

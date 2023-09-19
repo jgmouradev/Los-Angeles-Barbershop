@@ -1,0 +1,632 @@
+
+@media (min-width:375px) and (max-width:499px) {
+   
+    .hamburguer{
+        right: 1rem;
+    }
+    .sidebar {
+        width: 12rem;
+        height: 101vh;
+        
+      }
+    .logo{
+        margin-top: -645px;
+    }
+    .logo img {
+        width: 18rem;
+        height: 15rem;
+    }
+    .menu-item{
+        margin: 22px;
+    }
+    .banner h1{
+        font-size: 2.3rem;
+    }
+    .header-info{
+        width: 80%;
+        height: 100%;
+    }
+    .agendamento button{
+       margin-top: 45px;
+    }
+    .header-info .atendimento, .horário, .agendamento{
+        margin: 40px;
+      }  
+    .barbearia h1{
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: -110px;
+    }
+
+    .apresentacao{
+        justify-content: center;
+        text-align: center;
+        flex-direction:column;
+    }
+    .foto_apresentacao img{
+        width: 300px;
+        margin: 40px;
+    }
+    .apresentacao h2{
+        margin-left: 0;
+        justify-content: center;
+    }
+    .apresentacao p{
+        font-size: 1.25rem;
+        margin: 0;
+        padding: 30px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+       
+    }
+
+    .serviços .container{
+        width: 100%;
+        justify-content: center;
+        gap: 45px;
+        background-size:contain;
+        padding:0px;
+    }
+    .serviços h1{
+        font-size: 2rem;
+        
+    }
+    .polaroid{
+        width: 250px;
+    }
+    .caption h2{
+        font-size: 1.3rem;
+    }
+    .caption p{
+        font-size: 2.5rem;
+    }
+    .agendar button{
+        width: 200px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .photo{
+        height: 250px;
+    }
+
+    .time{
+        background-size: 400px 500px;
+    }
+    .time h1{
+        font-size: 2rem;
+        
+    }
+    
+    .polaroid_time{
+        width: 250px;
+    }
+    .photo_time{
+        height: 250px;
+    }
+
+    .polaroid_time .caption h2{
+        font-size: 1.5rem;
+    }
+
+    .polaroid_time .caption p{
+        font-size: 1.3rem;
+    }
+       
+    .galeria h1{
+        font-size: 2rem;
+    }
+    .gallery{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .contato .container{
+        flex-direction: column;
+    }    
+
+    .contato h1{
+        font-size: 2rem;
+    }
+    .contatos h2{
+        font-size: 1.5rem;
+    }
+    .horario h2{
+        font-size: 1.5rem;
+    }
+    .horario ul{
+        font-size: 1.3rem;
+    }
+    .endereço h2{
+        font-size: 1.5rem;
+    }
+    .endereço p{
+        font-size: 1.3rem;
+    }
+    .logo-contato{
+        display: flex;
+        justify-content: center;
+    }
+    .logo-contato img{
+        width: 16rem;
+        height: 12rem;
+      }
+    .whatsapp{
+        margin: 20px;
+    }
+    .whatsapp .btn{
+        padding: 10px 10px;
+        margin:0px;
+        margin-right: -25px;
+        font-size: 1rem;
+    }
+    footer p {
+        font-size: 1rem;
+       font-family: "Glegoo",sans-serif;
+       text-align: center;
+     }
+        
+}
+
+
+@media (min-width:500px) and (max-width:768px){
+
+   
+    .hamburguer{
+        right: 1rem;
+    }
+    .sidebar {
+        width: 18rem;
+        
+      }
+
+    .logo{
+        margin-top: -650px;
+    }
+    .logo img{
+        width: 22rem;
+        height: 18rem;
+    }
+
+    .banner h1{
+        font-size:2.5rem;
+    }
+    
+    .header-info{
+        width: 70%;
+        height: 100%;
+    }
+
+    .header-info .atendimento, .horário, .agendamento{
+        margin: 30px;
+        text-align: center;
+    }
+    .agendar{
+        margin-top: 100px;
+    }
+    .agendamento button{
+        width: 320px;
+        margin-top: 65px;
+    }
+
+    .barbearia h1{
+        font-size: 2rem;
+        margin-bottom: -110px;
+    }
+    .apresentacao{
+        justify-content: center;
+        text-align: center;
+        flex-direction:column;
+    }
+    .foto_apresentacao{
+        margin: 60px;
+    }
+    .foto_apresentacao img{
+        width: 350px;
+        margin-left: 0;
+    }
+    .apresentacao h2{
+        margin-left: 0;
+        justify-content: center;
+    }
+    .apresentacao p{
+        font-size: 1.5rem;
+        line-height: 35px;
+        margin: 50px;
+       
+    }
+    .serviços .container{
+        width: 100%;
+        justify-content: center;
+        gap: 45px;
+        background-size:contain;
+        padding:0px;
+    }
+    .serviços h1{
+        font-size: 2rem;
+    }
+    .photo{
+        height: 280px;
+    }
+    .photo_time{
+        height: 280px;
+    }
+    .polaroid{
+        width: 250px;
+    }
+    
+    .caption h2{
+        font-size: 1.5rem;
+    }
+    .caption p{
+        font-size: 3rem;
+    }
+    .time h1{
+        font-size: 2rem;
+    }
+    .photo_time{
+        height: 280px;
+    }
+    .polaroid_time{
+        width: 250px;
+    }
+    .polaroid_time .caption h2{
+        font-size: 1.5rem;
+    }
+   
+    .galeria h1{
+        font-size: 2rem;
+    }
+    
+    .gallery{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .contato h1{
+        font-size: 2rem;
+    }
+    .logo-contato{
+        display: flex;
+        justify-content: center;
+    
+    }
+    .contato .container{
+        flex-direction: column;
+    }
+    .contato h1{
+        font-size: 2rem;
+    }
+    .contatos h2{
+        font-size: 1.5rem;
+    }
+    .horario h2{
+        font-size: 1.5rem;
+    }
+    .horario ul{
+        font-size: 1.3rem;
+    }
+    .endereço h2{
+        font-size: 1.5rem;
+    }
+    .endereço p{
+        font-size: 1.3rem;
+    }
+    .instagram h1{
+        font-size: 1.5rem;
+    }
+    .instagram img{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .whatsapp .btn{
+        padding: 10px 10px;
+        margin:0px;
+        font-size: 1rem;
+    }
+    footer p {
+        font-size: 1rem;
+       font-family: "Glegoo",sans-serif;
+       text-align: center;
+     }
+}
+
+@media (min-width:675px){
+   .gallery{
+  padding: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 300px;
+  grid-gap: 30px;
+}
+
+}
+
+@media (min-width:769px) and (max-width:1024px){
+
+    .hamburguer{
+        right: 1rem;
+    }
+
+    .logo{
+        margin-top: -750px;
+    }
+    .logo img{
+        width: 22rem;
+        height: 18rem;
+    }
+    .banner h1{
+        font-size: 3rem;
+        text-align: center;
+        margin-top: -45px;
+    }
+    .banner_btn button{
+        padding: 5px;
+    }
+    
+    .barbearia h1{
+        font-size: 2rem;
+        margin-bottom: -110px;
+    }
+    
+    .apresentacao{
+        justify-content: center;
+        text-align: center;
+        flex-direction:column;
+    }
+    .foto_apresentacao{
+        margin: 60px;
+    }
+    .header-info{
+        width: 70%;
+        height: 100%;
+    }
+
+    .header-info .atendimento, .horário, .agendamento{
+        margin: 30px;
+        text-align: center;
+    }
+    .agendamento button{
+        width: 320px;
+        margin-top: 65px;
+    }
+    .foto_apresentacao img{
+        width: 350px;
+        margin-left: 0;
+    }
+    .apresentacao h2{
+       margin: 50px 50px 50px 100px;
+    }
+    .apresentacao p{
+        font-size: 1.5rem;
+        line-height: 35px;
+       
+    }
+    .serviços .container{
+        width: 100%;
+        justify-content: center;
+        gap: 45px;
+        background-size:contain;
+        padding:0px;
+    }
+    .agendar{
+        margin-top: 100px;
+    }
+    .serviços h1{
+        font-size: 2rem;
+    }
+    .photo{
+        height: 280px;
+    }
+    .photo_time{
+        height: 280px;
+    }
+    .polaroid{
+        width: 250px;
+    }
+    
+    .caption h2{
+        font-size: 1.5rem;
+    }
+    .caption p{
+        font-size: 3rem;
+    }
+    .time h1{
+        font-size: 2rem;
+    }
+    .photo_time{
+        height: 280px;
+    }
+    .polaroid_time{
+        width: 250px;
+    }
+    .polaroid_time .caption h2{
+        font-size: 1.5rem;
+    }
+   
+    .galeria h1{
+        font-size: 2rem;
+    }
+    
+    .gallery{
+        padding: 60px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 300px;
+        grid-gap: 30px;
+    }
+    
+    .contato h1{
+        font-size: 2rem;
+    }
+    .contato .container{
+        flex-direction: column;
+    }
+    .logo-contato{
+        display: flex;
+        justify-content: center;
+    
+    }
+    .contato h1{
+        font-size: 2rem;
+    }
+    .contatos h2{
+        font-size: 1.5rem;
+    }
+    .horario h2{
+        font-size: 1.5rem;
+    }
+    .endereço h2{
+        font-size: 1.5rem;
+    }
+    .instagram h1{
+        font-size: 1.5rem;
+    }
+    .instagram img{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .whatsapp .btn{
+        padding: 10px 10px;
+        margin:0px;
+        font-size: 1rem;
+    }
+    footer p {
+        font-size: 1.3rem;
+       font-family: "Glegoo",sans-serif;
+       text-align: center;
+     }
+}
+
+@media (min-width:1025px) and (max-width:1850px){
+
+    .apresentacao{
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .banner h1{
+        font-size: 3rem;
+        text-align: center;
+        margin-top: -45px;
+    }
+    .foto_apresentacao{
+        margin: 60px;
+    }
+    .foto_apresentacao img{
+        width: 650px;
+        height: 400px;
+    }
+    .header-info{
+        width: 70%;
+        height: 100%;
+    }
+    .header-info .atendimento, .horário, .agendamento{
+        margin: 30px;
+        text-align: center;
+    }
+    .agendamento button{
+        width: 320px;
+        margin-top: 65px;
+    }
+
+    .serviços .container{
+        width: 100%;
+        justify-content: center;
+        gap: 15px;
+        background-size:contain;
+        padding:0px;
+    }
+    .agendar{
+        margin-top: 100px;
+    }
+
+    .logo-contato{
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    
+
+}
+
+@media(min-width:1200px) and ( max-width:1850px){
+
+    .header-info{
+        width: 50%;
+        height: 100%;
+    }
+    .header-info .container{
+        flex-direction: column;
+    }
+
+    .banner h1{
+        font-size: 6rem;
+        
+    }
+
+
+}
+
+@media (min-width:1851px) and (max-width:2560px){
+
+    .banner_btn{
+        margin-top: 60px;
+    }
+    .apresentacao{
+        margin-left:200px;
+      }
+      .foto_apresentacao img{
+        width: 650px;
+        height: 400px;
+    }
+    .banner h1{
+        font-size: 3rem;
+        
+    }
+
+     .header-info{
+        width: 90%;
+        height:100%;
+    }
+    .serviços .container{
+        padding: 0;
+    }
+    .agendar button{
+        margin-top: 50px;
+    }
+
+}
+
+@media (min-width:1025px) and (max-width:2560px){
+
+    .logo{
+        margin-top: -765px;
+    }
+    .logo img{
+        width: 25rem;
+        height: 20rem;
+    }
+    .banner h1{
+        font-size: 3rem;
+        text-align: center;
+        margin-top: -45px;
+    }
+
+    .apresentacao img{
+        margin-left:0px;
+      }
+      .apresentacao p{
+        font-size: 1.5rem;
+        line-height: 45px;
+       
+    }
+   }
+
+  @media (max-width:2560px){
+    .gallery{
+        grid-template-columns: repeat(4, 1fr);
+    }
+  }
