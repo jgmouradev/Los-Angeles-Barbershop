@@ -348,7 +348,7 @@ header{
   justify-content:space-around;
   gap: 65px;
   flex-wrap: wrap;
-  background: url(/Sandiego-BarberShop-main/images/servicesbackground.png) center;
+  background: url(/images/servicesbackground.png) center;
   background-size: auto;
   margin: 0 auto;
   border-radius: 10px;
