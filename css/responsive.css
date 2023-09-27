@@ -10,7 +10,7 @@
         
       }
     .logo{
-        margin-top: -645px;
+        margin-top: -610px;
     }
     .logo img {
         width: 18rem;
@@ -21,6 +21,7 @@
     }
     .banner h1{
         font-size: 2.3rem;
+        padding: 0;
     }
     .header-info{
         width: 80%;
@@ -177,11 +178,19 @@
     }
     .sidebar {
         width: 18rem;
-        
-      }
+    }
+    .menu{
+        top: 45%;
+    }
+    .menu-item{
+        margin: 40px;
+    }
+    .social-media{
+        bottom: 7rem;
+    }
 
     .logo{
-        margin-top: -650px;
+        margin-top: -760px;
     }
     .logo img{
         width: 22rem;
@@ -343,6 +352,110 @@
 
 }
 
+@media (min-width:667px) and (orientation:landscape){
+    .hamburguer{
+        top: 4rem;
+    }
+    .menu{
+        top: 50%;
+    }
+    .menu-item{
+        margin: 15px;
+    }
+    .menu-link{
+        font-size: 1rem;
+    }
+    .social-media{
+        bottom: 1rem;
+    }
+    .social-media img{
+        width: 2rem;
+        height: 2rem;
+    }
+    .logo{
+        margin-top: -380px;
+    }
+    .logo img{
+        width: 15rem;
+        height: 14rem;
+    }
+    .banner h1{
+        font-size: 2rem;
+        margin-top:-45px;
+        padding: 0;
+    }
+}
+
+
+@media (min-width:734px) and (orientation:landscape){
+    .hamburguer{
+        top: 4rem;
+    }
+    .menu{
+        top: 50%;
+    }
+    .menu-item{
+        margin: 15px;
+    }
+    .menu-link{
+        font-size: 1rem;
+    }
+    .social-media{
+        bottom: 1rem;
+    }
+    .social-media img{
+        width: 2rem;
+        height: 2rem;
+    }
+    .logo{
+        margin-top: -420px;
+    }
+    .logo img{
+        width: 18rem;
+        height: 15rem;
+    }
+    .banner h1{
+        font-size: 2rem;
+        margin-top:-45px;
+        padding: 0;
+    }
+}
+
+@media (min-width:684px) and (orientation:landscape){
+    .hamburguer{
+        top: 4rem;
+    }
+    .menu{
+        top: 50%;
+    }
+    .menu-item{
+        margin: 15px;
+    }
+    .menu-link{
+        font-size: 1rem;
+    }
+    .social-media{
+        bottom: 1rem;
+    }
+    .social-media img{
+        width: 2rem;
+        height: 2rem;
+    }
+    .logo{
+        margin-top: -420px;
+    }
+    .logo img{
+        width: 18rem;
+        height: 15rem;
+    }
+    .banner h1{
+        font-size: 2rem;
+        margin-top:-45px;
+        padding: 0;
+    }
+}
+
+
 @media (min-width:769px) and (max-width:1024px){
 
     .hamburguer{
@@ -499,6 +612,25 @@
      }
 }
 
+@media (min-width:1024px) and (orientation:landscape){
+    .logo{
+        margin-top: -610px;
+    }
+    .menu-item{
+        margin: 25px;
+    }
+    .menu-link{
+        font-size: 1.5rem;
+    }
+    .social-media{
+        bottom: 3rem;
+    }
+    .social-media img{
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
 @media (min-width:1025px) and (max-width:1850px){
 
     .apresentacao{
@@ -603,7 +735,7 @@
 @media (min-width:1025px) and (max-width:2560px){
 
     .logo{
-        margin-top: -765px;
+        margin-top: -650px;
     }
     .logo img{
         width: 25rem;
