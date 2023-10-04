@@ -9,6 +9,9 @@
         height: 101vh;
         
       }
+    .social-media{
+        bottom: 3rem;
+    }
     .logo{
         margin-top: -650px;
     }
