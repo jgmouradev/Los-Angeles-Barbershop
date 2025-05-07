@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="stylesheet" href="/src/css/agendamento.css">
+    <title>Los Angeles Barbershop - Agendamento</title>
+</head>
+<body>
+    <div class="container">
+        <div class="hamburguer">
+            <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+        </div>
+       
+        <header>
+         
+              <div class="img-wrapper">
+                <img src="src/images/apresentacaobg.jpg" alt="header background">
+                
+            </div>
+            <div class="logo">
+              <img src="src/images/logo.png" alt="logo do site">
+            </div>
+
+        <div class="banner"><h1>Mais que uma barbearia.</h1></div>
+        
+      </header>
+       
+       <div class="container-agendamento">
+        
+        <form action="" method="post">
+            <div class="form-container">
+              <div class="title">
+                <h1>Cliente</h1>
+              </div>
+                <div class="title-text"><p>Preencha seus dados e agende o seu horário com o seu barbeiro preferido.</p></div>
+              
+      
+              <!-- Dados Pessoais -->
+              <div class="personal-Data">
+                <div class="input-field">
+                  <h2>Nome</h2>
+                  <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
+                </div>
+                <div class="input-field">
+                  <h2>Telefone</h2>
+                  <input type="tel" name="phone" id="phone" placeholder="Digite seu telefone" required>
+                </div>
+              </div>
+      
+              <!-- Serviços -->
+              <div class="title">
+                <h1>Serviços Disponíveis</h1>
+              </div>
+              <div class="services">
+                <div class="input-services">
+                  <label><input type="radio" name="servico" value="Barba" required> Barba</label>
+                  <label><input type="radio" name="servico" value="Cabelo"> Cabelo</label>
+                  <label><input type="radio" name="servico" value="Barba e Cabelo"> Barba e Cabelo</label>
+                </div>
+              </div>
+      
+              <!-- Barbeiro -->
+              <div class="professionals">
+                <div class="title">
+                  <h1>Profissional</h1>
+                </div>
+                <p class="title-text">Selecione o seu barbeiro preferido.</p>
+                <div class="input-select">
+                  <label for="prof-select">Barbeiro:</label>
+                  <select name="profissional" id="prof-select" required>
+                    <option value="">Selecione uma opção</option>
+                    <option value="marcos">Marcos</option>
+                    <option value="adriano">Adriano</option>
+                    <option value="leonardo">Leonardo</option>
+                    <option value="sem-preferencia">Sem preferência</option>
+                  </select>
+                </div>
+              </div>
+      
+              <div class="schedules">
+                <div class="title">
+                  <h1>Horários Disponíveis</h1>
+                </div>
+      
+                <div class="calendar">
+                  <label for="date">Data:</label>
+                  <input type="date" name="date" id="date" required>
+                </div>
+      
+                <div class="hours">
+                  <div class="hours-list">
+                    <ul>
+                        <li><button type="button" value="09:00" data-hora="09:00">09:00</button></li>
+                        <li><button type="button" value="09:30" data-hora="09:30">09:30</button></li>
+                        <li><button type="button" value="10:00" data-hora="10:00">10:00</button></li>
+                        <li><button type="button" value="10:30" data-hora="10:30">10:30</button></li>
+                        <li><button type="button" value="11:00" data-hora="11:00">11:00</button></li>
+                        <li><button type="button" value="11:30" data-hora="11:30">11:30</button></li>
+                        <li><button type="button" value="14:00" data-hora="14:00">14:00</button></li>
+                        <li><button type="button" value="14:30" data-hora="14:30">14:30</button></li>
+                        <li><button type="button" value="15:00" data-hora="15:00">15:00</button></li>
+                        <li><button type="button" value="15:30" data-hora="15:30">15:30</button></li>
+                        <li><button type="button" value="16:00" data-hora="16:00">16:00</button></li>
+                        <li><button type="button" value="16:30" data-hora="16:30">16:30</button></li>
+                        <li><button type="button" value="17:00" data-hora="17:00">17:00</button></li>
+                        <li><button type="button" value="17:30" data-hora="17:30">17:30</button></li>
+                        <li><button type="button" value="18:00" data-hora="18:00">18:00</button></li>
+                        <li><button type="button" value="18:30" data-hora="18:30">18:30</button></li>
+                        <li><button type="button" value="19:00" data-hora="19:00">19:00</button></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- Botões -->
+              <div class="btn-forms">
+                <div class="btn">
+                  <button class="form" type="submit">Agendar</button>
+                </div>
+                <div class="btn-cancel">
+                  <input type="reset" value="Cancelar">
+                </div>
+              </div>
+      
+            </div>
+          </form>
+       </div>
+       </div>
+       
+       <div class="agenda-cliente">
+        <h1>Seu Agendamento</h1>
+        <div class="agenda-container">
+          <h2>Fulano, será um prazer recebê-lo na Los Angeles Barbershop.</h2>
+          <p>Informações do seu agendamento:</p>
+          <ul>
+            <li><i class="fa-regular fa-calendar"></i>Data: <span id="agendamento-data"></span></li>
+            <li><i class="fa-regular fa-clock"></i>Horário: <span id="agendamento-horario"></span></li>
+            <li><i class="fa-regular fa-square-check"></i>Serviços Escolhidos: <span id="agendamento-servico"></span></li>
+            <li><i class="fa-regular fa-bell"></i>Tempo de Duração: <span id="agendamento-duracao"></span></li>
+            <li><i class="fa-regular fa-id-badge"></i>Profissional: <span id="agendamento-profissional"></span></li>
+           
+          </ul>
+        </div>
+        <!-- <ul>
+          <li><i class="fa-regular fa-clock"></i>Seu horário foi agendado para o dia as 18h, com o profisional... Caso haja algum emprevisto e não possa comparecer, pedimos que nos avise com pelo menos 1h de antecedência. Não se preocupe,reagendamos para outro dia.</li>
+        </ul> -->
+          <!-- <h2>Será um prazer recebê-lo na Los Angeles Barbershop e cuidar do seu visual com todo o cuidado que você merece.<br>Agradecemos pelo seu agendamento e pela preferência.</h2> -->
+      </div>
+
+       <aside class="sidebar">
+        <nav class="nav-link">
+          <ul class="menu">
+            <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+            <li class="menu-item"><a href="#quemsomos" class="menu-link">Quem Somos</a></li>
+            <li class="menu-item"><a href="#serviços" class="menu-link">Serviços</a></li>
+            <li class="menu-item"><a href="#equipe" class="menu-link">Equipe</a></li>
+            <li class="menu-item"><a href="#galeria" class="menu-link">Galeria</a></li>
+            <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+            </ul>
+          
+          <div class="social-media">
+            <img src="src/images/barbearia.png" alt="logo poste de barbeiro">
+            
+         </div>
+        </nav>
+        
+      </aside>
+           
+      </div>
+
+      <a href="#" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+      </a>
+      
+       
+
+      <section class="contato" id="contato">
+        <h1>Contato</h1>
+        
+        <div class="container">
+
+          <div class="endereço">
+            <h2>Onde estamos</h2>
+            <p>Avenida General Osório 790 - Centro</p>
+            <p>Bagé RS</p>
+           </div>
+
+           <div class="logo-contato">
+            <img src="src/images/logo.png" alt="logo do site">
+          </div>
+
+                    
+          <div class="horario">
+            <h2>Atendimento</h2>
+            <ul>Segundas a Sábado das 9h as 12h</ul>
+            <ul>14h as 20h</ul>
+           
+         </div>
+         
+      
+        </div>
+        <!--<div class="instagram">
+          <h1>Siga-nos</h1>
+          <div class="instagram-image"><a href="https://www.instagram.com/sandiego_barbershop_barbearia/"><img src="images/instagram.png" alt="logo instagram"></a></div><-->
+          
+        </div>
+        <div class="whatsapp">
+          <a href="https://api.whatsapp.com/send?phone=5553997038256"><button class="btn"><i class="fab fa-whatsapp"></i>  Entre em Contato</button></a>
+        </div>
+
+        
+       
+
+       
+      </section>
+
+      <footer><p>Los Angeles Barbershop &#174 2023 - Todos os direitos reservados.</p></footer>
+
+      
+    
+</body>
+<script src="src/js/script.js"></script>
+<script src="/src/js/agenda2.js"></script>
+<script src="src/js/top.js"></script>
+<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+<script src="src/js/scrollReveal.js"></script>
+
+</html>
